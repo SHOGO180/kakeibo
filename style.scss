@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+  padding: 8px;
+  margin-bottom: 16px;
+
+  & h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  & p {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  & .type,.date-and-memo {
+    margin-bottom: 8px;
+    font-size: 16px;
+
+    & select {
+      height: 30px;
+    }
+
+    & input {
+      height: 30px;
+    }
+  }
+
+  & .add {
+    margin: 16px 8px 0 0;
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  & .reset {
+    margin-top: 16px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+footer {
+  background-color: #efefef;
+  padding: 8px;
+  text-align: center;
+  font-size: 13px;
+}
